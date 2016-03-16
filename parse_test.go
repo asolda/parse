@@ -11,7 +11,7 @@ import (
 	"testing"
 )
 
-var debug = flag.Bool("debug", false, "show errors in the main test and positive matches in the parser")
+var debug = flag.Bool("debug", true, "show errors in the main test and positive matches in the parser")
 
 type numberTest struct {
 	text      string
